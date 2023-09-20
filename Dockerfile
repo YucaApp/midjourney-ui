@@ -1,5 +1,5 @@
 # ---- Production ----
-FROM node:20.7-alpine AS production
+FROM node:20.2-alpine AS production
 WORKDIR /dist
 
 COPY .next ./.next
